@@ -132,3 +132,14 @@ It combines operational problem-solving, requirements engineering, process docum
 **Project Category:** Business Analysis / Inventory Management / Python Application
 
 **Status:** Initial version completed; future enhancements identified.
+
+## Application Screenshots
+
+### 1. Main Menu
+![Main Menu](Screenshots/main_menu.png)
+
+### 2. Chemical Inventory
+![Chemical Inventory](Screenshots/chemical_inventory.png)
+
+### 3. Chemical Consumption History
+![Chemical Consumption History](Screenshots/consumption_history.png)

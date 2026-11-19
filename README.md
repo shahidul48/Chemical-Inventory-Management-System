@@ -91,14 +91,26 @@ Chemical-Inventory-Management-System/
 
 ### Prerequisites
 
-- Python 3.x
-- Pandas
-- Openpyxl
+Ensure that Python and Git are installed on your computer.
 
-### Install Required Libraries
+### Clone the Repository
+
+Open a terminal or command prompt and execute:
 
 ```bash
-python -m pip install pandas openpyxl
+git clone https://github.com/shahidul48/Chemical-Inventory-Management-System.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd Chemical-Inventory-Management-System
+```
+
+### Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### Run the Application
@@ -107,7 +119,11 @@ python -m pip install pandas openpyxl
 python chemical_inventory.py
 ```
 
-The application provides a menu-driven interface for accessing inventory management functions.
+### Start Using the Application
+
+After running the application, the main menu will appear. Select the required option to manage chemical inventory, record consumption, view reports, and perform other available operations.
+
+**Note:** Python must be installed on your computer before executing the application.
 
 ## 9. Future Enhancements
 

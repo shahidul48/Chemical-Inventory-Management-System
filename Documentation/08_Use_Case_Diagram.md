@@ -14,27 +14,27 @@ The primary business actor responsible for maintaining chemical inventory inform
 
 ```mermaid
 flowchart LR
-    Actor["Storekeeper / Inventory Officer"]
+    A["Storekeeper / Inventory Officer"]
 
-    subgraph System["Chemical Inventory Management System"]
-        UC1([Add Chemical])
-        UC2([View Inventory])
-        UC3([Search Chemical])
-        UC4([Record Chemical Consumption])
-        UC5([View Consumption History])
-        UC6([Delete Chemical])
-        UC7([Generate Inventory Report])
-        UC8([Generate Consumption Report])
+    subgraph S["Chemical Inventory Management System"]
+        B["Add Chemical"]
+        C["View Inventory"]
+        D["Search Chemical"]
+        E["Record Chemical Consumption"]
+        F["View Consumption History"]
+        G["Delete Chemical"]
+        H["Generate Inventory Report"]
+        I["Generate Consumption Report"]
     end
 
-    Actor --- UC1
-    Actor --- UC2
-    Actor --- UC3
-    Actor --- UC4
-    Actor --- UC5
-    Actor --- UC6
-    Actor --- UC7
-    Actor --- UC8
+    A --- B
+    A --- C
+    A --- D
+    A --- E
+    A --- F
+    A --- G
+    A --- H
+    A --- I
 ```
 
 ## 4. Use Case Descriptions
